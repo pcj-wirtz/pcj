@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9DE385E7-704F-D2DB-8CC0-168DF9B0A467" name="material">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 19:48:17 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_material" id="CEEA8D44-34C5-ADD0-1C33-8C8B7BC11D86">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 19:49:18 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pesas" id="9B2A8B39-3914-786C-CB58-452616835FB9">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 19:50:23 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cintas" id="A0AA461A-C98D-0945-92C4-3E0B36EEA56B">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 19:51:22 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="guantes" id="293574C1-28C3-0633-A448-E00C2067C8E0">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 19:52:10 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="colchonetas" id="C193C301-EE69-DA43-1256-29089F19B81E">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 19:53:29 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="78BA8F69-6A06-D209-61E1-AEE171BBF7BB" name="material_sesiones PK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 19:50:10 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CEEA8D44-34C5-ADD0-1C33-8C8B7BC11D86</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

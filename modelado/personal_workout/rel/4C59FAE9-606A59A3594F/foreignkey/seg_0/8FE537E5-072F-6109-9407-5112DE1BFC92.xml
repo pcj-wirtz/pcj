@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8FE537E5-072F-6109-9407-5112DE1BFC92" containerWithKeyObject="2F9A4749-4C4C-DF6D-26BA-7DDECA5D824E" localFKIndex="501BF62C-1E8C-3301-F8F0-A495307C22BA" name="acondicionamiento_dieta_FK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<generatorID>D3043B0F-7228-D3AE-C5C5-DD92642B4E87</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<referredTableLongName>dieta</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B97A8E25-BA38-81B4-B9CA-7C2475A4C586</referredTableID>
+<keyObject>12042E37-2BD6-297F-079D-0C2253ACCC6E</keyObject>
+<referredKeyID>12042E37-2BD6-297F-079D-0C2253ACCC6E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_dieta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

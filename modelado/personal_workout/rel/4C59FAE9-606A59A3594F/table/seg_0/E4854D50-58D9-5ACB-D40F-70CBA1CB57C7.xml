@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4854D50-58D9-5ACB-D40F-70CBA1CB57C7" name="direccion">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<generatorID>942180DB-A58D-78CB-BB62-AB3597D2F159</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_direccion" id="CDB79761-B616-C072-D2BB-548E33F13C53">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<generatorID>0076F62E-DC61-36FD-7D77-FF0B44D0F578</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="calle" id="197B8FBD-EDF9-14C5-AD3D-8D46E55A8EC4">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<generatorID>D548772A-5927-D031-2924-74325937403B</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CP" id="CC61B9F2-AF9B-82F7-B274-BA79DF79E8A2">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<generatorID>9B5061D2-BC60-DB57-8A07-8176FF71E55A</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Localidad_id_Loc" id="4566D146-02C6-D072-AA42-5B852A12272C">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<generatorID>4F8459C4-4D7B-186C-AC80-0538A158B5F6</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D88F67B1-58A1-E108-95C8-6BE6A9D15200" referredColumn="6CE2BBBA-5717-99DF-0DAA-1EB6E979C5CD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A86CA298-518F-1D21-0840-682BD03882BD" name="direccion_PK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<generatorID>37A43F27-D0A3-B079-9412-A977C457D925</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDB79761-B616-C072-D2BB-548E33F13C53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38F29DE2-E969-E311-39C0-2180765ECD43" name="direccion_Localidad_FK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<generatorID>9B1D6085-9DBF-A66A-6BD6-B5B029BEBC7C</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4566D146-02C6-D072-AA42-5B852A12272C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

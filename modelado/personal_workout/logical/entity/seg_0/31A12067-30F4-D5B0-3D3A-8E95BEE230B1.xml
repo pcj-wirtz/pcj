@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31A12067-30F4-D5B0-3D3A-8E95BEE230B1" name="medidas">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-01-18 18:39:28 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="medidas" id="129D3ED9-F80D-E69D-40C6-B41C59F49E63">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-01-18 18:39:56 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso" id="1ECB0D89-918E-113E-9AC8-27E0DE1AEEB9">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-01-18 18:41:30 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura" id="9802C5A4-6426-E51B-B02F-1FEE471078C7">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-01-18 18:41:57 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9E6EA9D5-AFF5-05AC-9AF0-40D9A6154E7D" name="medidas PK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-01-18 18:41:07 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>129D3ED9-F80D-E69D-40C6-B41C59F49E63</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

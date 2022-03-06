@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="matrial_sesiones" directorySegmentName="seg_0" id="DD5662DA-DA89-F213-E47A-EC3846424C6A">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 20:06:04 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<sourcePk>78BA8F69-6A06-D209-61E1-AEE171BBF7BB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9DE385E7-704F-D2DB-8CC0-168DF9B0A467</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0C1458F6-2353-1BFB-C5F8-9823D0CE7EF1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

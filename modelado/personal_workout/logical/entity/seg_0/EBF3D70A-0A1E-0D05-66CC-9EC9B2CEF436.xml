@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EBF3D70A-0A1E-0D05-66CC-9EC9B2CEF436" name="dieta">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 20:11:49 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<engineerTo>
+<item key="E36CB18B-156A-B702-A5EA-5A0773A5A607" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_dieta" id="B283C143-C64B-5440-2B68-1ECBD2D95FE5">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 20:11:59 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<engineerTo>
+<item key="E36CB18B-156A-B702-A5EA-5A0773A5A607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="2C18CB4F-9165-3597-39A1-D247E51CE755">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 20:12:30 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<engineerTo>
+<item key="E36CB18B-156A-B702-A5EA-5A0773A5A607" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD2CD40F-4C32-26D6-FF11-1743B0146EC0" name="dieta PK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 20:12:18 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<engineerTo>
+<item key="E36CB18B-156A-B702-A5EA-5A0773A5A607" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B283C143-C64B-5440-2B68-1ECBD2D95FE5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

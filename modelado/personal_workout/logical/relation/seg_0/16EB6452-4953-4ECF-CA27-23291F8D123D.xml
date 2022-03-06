@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="objetivos_cliente" directorySegmentName="seg_0" id="16EB6452-4953-4ECF-CA27-23291F8D123D">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 20:02:32 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<sourcePk>3617993B-9F8C-BA48-090F-3A2FD15141F8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7CC8A4BF-C715-E9CC-91A6-2BE6FABBAEEB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>78751655-82CF-B3F7-0DFD-B1653A8F4C25</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

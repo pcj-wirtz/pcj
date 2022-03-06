@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="052367AD-9C9E-8239-2BB3-3D62E6BD919D" name="cliente">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<generatorID>78751655-82CF-B3F7-0DFD-B1653A8F4C25</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="5D39267E-337D-4E0E-1AA6-5E8BF2D0E05B">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<generatorID>04261EE2-5F15-5F31-8333-A0C47ED69188</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNI" id="B4C1C38F-B934-2A64-A9F7-EE33F8CA05A5">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<generatorID>84A58BBD-5CF3-7792-36F8-2D744CB08413</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="B6FBA78D-4259-0620-6E6D-4B1E1D085179">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<generatorID>5DFBCDF3-F200-EC8C-A549-4D0A31D171CA</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="404F4092-1AFC-3CBE-6D50-8F9668CF71A0">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<generatorID>2DD812BE-25D2-FECF-406F-E38AC6A821F6</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido2" id="ADC1A667-5254-9027-980F-4E8EC051F341">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<generatorID>F09DB53E-9159-402C-265C-844E01AC811A</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_id_direccion" id="1D1D7227-352E-81E1-C60C-F0C65BE97D60">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<generatorID>4371D4B7-8546-6483-606C-FC72A60151D0</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04CB4C8F-52F8-52EC-D04B-1B656B925B31" referredColumn="CDB79761-B616-C072-D2BB-548E33F13C53"/>
+</associations>
+</Column>
+<Column name="medidas_medidas" id="44C7E033-8BE3-0405-2586-CF9E2437C6DD">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<generatorID>8E0FD7C7-F5DB-A953-95AF-09FAC941C6E4</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B01E70C-9473-71B5-9075-3466C365493C" referredColumn="78D779E5-4493-EFDC-50DD-DDCB7B80C656"/>
+</associations>
+</Column>
+<Column name="objetivos_id_objetivos" id="2E6EDF62-FAD3-56EE-B715-D4A3A1433EEA">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<generatorID>41F3073A-4BEC-3EA8-3928-5655DEE12B50</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66BE9794-5F77-5279-19B3-E4D96C8EBBFC" referredColumn="8BFAB52C-ACA7-1708-2D28-7E22CC9C2490"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BCAEA4A-1C94-5D91-8B85-B4E9CC7ACB1A" name="cliente_PK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<generatorID>FF4D81DD-7A81-C184-3DB8-CD4150BE0570</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D39267E-337D-4E0E-1AA6-5E8BF2D0E05B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2AC637BB-1A12-F8F1-EFD4-DDAD20A4232B" name="cliente__IDX">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0A49E27E-EB37-977B-0CD4-F88A321FBF63</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="1D1D7227-352E-81E1-C60C-F0C65BE97D60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3E848CB-D366-5E86-8B9C-0860902357AA" name="cliente_direccion_FK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<generatorID>0A49E27E-EB37-977B-0CD4-F88A321FBF63</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D1D7227-352E-81E1-C60C-F0C65BE97D60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39E38E11-972E-C843-1B65-323A4AEF9378" name="cliente_medidas_FK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<generatorID>C43F2D4E-B204-A63E-0FA5-AAF2F61BE78C</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44C7E033-8BE3-0405-2586-CF9E2437C6DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="205BBAEF-317D-A4F4-0035-00DB52FA3143" name="cliente_objetivos_FK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<generatorID>16EB6452-4953-4ECF-CA27-23291F8D123D</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E6EDF62-FAD3-56EE-B715-D4A3A1433EEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="entrenador_acondicionamiento" directorySegmentName="seg_0" id="4444FB81-DC6C-5928-E940-A8D98C349588">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 20:14:41 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<sourcePk>C871D487-28CB-DD8B-9815-10A9938C4EC4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>20C1B7D4-263E-C38D-4B31-27278870128E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E727CD31-7A95-C0E7-7797-7132EA10991D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

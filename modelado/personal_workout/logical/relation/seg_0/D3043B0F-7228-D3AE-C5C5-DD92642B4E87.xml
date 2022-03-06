@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="dieta_acondicionamiento" directorySegmentName="seg_0" id="D3043B0F-7228-D3AE-C5C5-DD92642B4E87">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 20:13:40 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<sourcePk>DD2CD40F-4C32-26D6-FF11-1743B0146EC0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EBF3D70A-0A1E-0D05-66CC-9EC9B2CEF436</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E727CD31-7A95-C0E7-7797-7132EA10991D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

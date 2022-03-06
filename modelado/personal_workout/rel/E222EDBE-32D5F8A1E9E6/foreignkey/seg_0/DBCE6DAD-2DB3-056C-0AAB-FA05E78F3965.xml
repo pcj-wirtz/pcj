@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DBCE6DAD-2DB3-056C-0AAB-FA05E78F3965" containerWithKeyObject="22AA2E88-626D-A70D-32E4-0E8188432DEC" localFKIndex="949D1CF8-9760-6805-1C58-D896F9C558A6" name="cliente_medidas_FK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 18:09:14 UTC</createdTime>
+<generatorID>C43F2D4E-B204-A63E-0FA5-AAF2F61BE78C</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<referredTableLongName>medidas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>31482AE3-5AFE-5615-2ED3-A789ED6F952A</referredTableID>
+<keyObject>79FE2C41-884E-1B6E-0F88-9DD58CF3DC12</keyObject>
+<referredKeyID>79FE2C41-884E-1B6E-0F88-9DD58CF3DC12</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>medidas</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

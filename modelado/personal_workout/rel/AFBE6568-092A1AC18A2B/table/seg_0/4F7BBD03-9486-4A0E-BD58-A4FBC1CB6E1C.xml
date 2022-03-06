@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F7BBD03-9486-4A0E-BD58-A4FBC1CB6E1C" name="Localidad">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 21:14:13 UTC</createdTime>
+<generatorID>D05FDBD9-87DF-2FF1-E1B9-B147859CA456</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Provincia_id_Prov" id="1ECDB88C-DBBC-4681-6FDC-2313C03DBEC3">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 21:14:13 UTC</createdTime>
+<generatorID>8A70AE39-D1E8-65CB-3420-4D80C144DD26</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="879C3DBD-4A33-BDFA-787F-4EC6230FD3A5" referredColumn="79F10C04-FFB8-9F03-142D-4C803E2DDD16"/>
+</associations>
+</Column>
+<Column name="id_Loc" id="D543D14D-7191-A8B9-398B-B78945850DD4">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 21:14:13 UTC</createdTime>
+<generatorID>716065C2-7BFC-FA0B-4B6D-63789A7B774A</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="FF5AFEFC-0379-1CAB-4566-E4A1454FA106">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 21:14:13 UTC</createdTime>
+<generatorID>F5CDD7DF-920D-508E-867D-EBFFBDD49532</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8AFB8224-26CE-401B-A250-2345577FD3FD" name="Localidad_PK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 21:14:13 UTC</createdTime>
+<generatorID>E1E5CEB9-BD33-9370-A2DE-706344133DC5</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D543D14D-7191-A8B9-398B-B78945850DD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28F86005-86E3-39DA-0DBA-DB0C90A31742" name="Localidad_Provincia_FK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 21:14:13 UTC</createdTime>
+<generatorID>2E523E0F-7D96-A4F2-18C9-159A0EB36D47</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1ECDB88C-DBBC-4681-6FDC-2313C03DBEC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="09846F4F-2480-D044-644B-91ACA3E7C65A" name="especialidad">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-01-18 19:11:39 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_especialidad" id="FE50CE1C-694E-87B9-8CC2-2D721BF95B89">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-01-18 19:14:22 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_entrenamiento" id="486B2481-E587-1C3E-A7AA-C4322E4617FA">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 19:37:26 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AD85B77E-540F-22BE-4957-DA9294E8C169" name="entrenamientos PK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-01-18 19:15:10 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FE50CE1C-694E-87B9-8CC2-2D721BF95B89</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

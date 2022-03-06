@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A3A9A553-A121-7A44-CE38-8A8B215AADE1" containerWithKeyObject="6FBBF1EE-DC0B-950D-95E7-EF2019958E1C" localFKIndex="488EB872-64EB-F02C-7076-9F2C52A2C7B2" name="sesiones_entrenadores_FK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 17:54:37 UTC</createdTime>
+<generatorID>2E289A2C-4202-BE00-6F30-B72AC96DA04A</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<referredTableLongName>entrenadores</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D04DC43C-E1A4-E029-0F38-AE1F50520C9A</referredTableID>
+<keyObject>A04DAB40-EA23-CC40-0003-1000EC232DAB</keyObject>
+<referredKeyID>A04DAB40-EA23-CC40-0003-1000EC232DAB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_monitor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

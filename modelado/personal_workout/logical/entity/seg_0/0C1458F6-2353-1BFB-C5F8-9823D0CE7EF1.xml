@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C1458F6-2353-1BFB-C5F8-9823D0CE7EF1" name="sesiones">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-01-18 19:34:10 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<engineerTo>
+<item key="4C59FAE9-A560-2CDA-DD54-606A59A3594F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_monitor" id="0CDB039D-AD52-0C47-A87C-2896B01C0610">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 19:40:02 UTC</createdTime>
+<generatorID>2E289A2C-4202-BE00-6F30-B72AC96DA04A</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<engineerTo>
+<item key="4C59FAE9-A560-2CDA-DD54-606A59A3594F" value="true"/>
+</engineerTo>
+<referedAttribute>7B841019-727B-C2BB-6AB7-19F9464DA03D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="DD6E4281-89C1-A2B2-D049-E2A94C60F023">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 19:42:53 UTC</createdTime>
+<generatorID>4C41F988-6D99-9868-A427-3E2CFD696C56</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<engineerTo>
+<item key="4C59FAE9-A560-2CDA-DD54-606A59A3594F" value="true"/>
+</engineerTo>
+<referedAttribute>04261EE2-5F15-5F31-8333-A0C47ED69188</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_inicio" id="79F2A0BD-A893-8561-789C-186A5C87CC88">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 19:45:15 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<engineerTo>
+<item key="4C59FAE9-A560-2CDA-DD54-606A59A3594F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracion" id="71259F31-4412-CFC6-9595-6F0598756BA5">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 19:46:23 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<engineerTo>
+<item key="4C59FAE9-A560-2CDA-DD54-606A59A3594F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_material" id="EC0B5898-946E-E533-51A8-935736A0AD98">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 20:06:04 UTC</createdTime>
+<generatorID>DD5662DA-DA89-F213-E47A-EC3846424C6A</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<engineerTo>
+<item key="4C59FAE9-A560-2CDA-DD54-606A59A3594F" value="true"/>
+</engineerTo>
+<referedAttribute>CEEA8D44-34C5-ADD0-1C33-8C8B7BC11D86</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F34FB89A-4102-AC40-8AE7-6F802059DEBE" name="sesiones PK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-01-18 19:34:51 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<engineerTo>
+<item key="4C59FAE9-A560-2CDA-DD54-606A59A3594F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0CDB039D-AD52-0C47-A87C-2896B01C0610</attributeRef>
+<attributeRef>DD6E4281-89C1-A2B2-D049-E2A94C60F023</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20C1B7D4-263E-C38D-4B31-27278870128E" name="entrenadores">
+<createdBy>najc</createdBy>
+<createdTime>2022-01-13 14:52:07 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_monitor" id="7B841019-727B-C2BB-6AB7-19F9464DA03D">
+<createdBy>najc</createdBy>
+<createdTime>2022-01-13 15:06:40 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="F43E0CC3-9073-D4B7-2BE5-0249445FC166">
+<createdBy>najc</createdBy>
+<createdTime>2022-01-13 15:07:26 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="1EEAEB1D-AD50-CE23-563A-8DBC23EB3E5F">
+<createdBy>najc</createdBy>
+<createdTime>2022-01-13 15:07:42 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido" id="5DCDFC99-9353-1FF7-0ABE-EE8E3A3C949E">
+<createdBy>najc</createdBy>
+<createdTime>2022-01-13 15:11:02 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido2" id="B7818CDB-E319-4720-C80B-7068C54A0417">
+<createdBy>najc</createdBy>
+<createdTime>2022-01-13 15:43:21 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_especialidad" id="303C0384-18ED-C5B4-00F1-89E3975B2D41">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 19:34:38 UTC</createdTime>
+<generatorID>7CA87C7A-CF64-55E9-D4CC-0E0B4881FAE0</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<referedAttribute>FE50CE1C-694E-87B9-8CC2-2D721BF95B89</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_Loc" id="41FAAC3C-1D7E-F7FD-A050-C6E2BCAE4F94">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 20:03:29 UTC</createdTime>
+<generatorID>E8EE9D6C-44CA-50B5-9C3F-3D5964092BED</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<referedAttribute>716065C2-7BFC-FA0B-4B6D-63789A7B774A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C871D487-28CB-DD8B-9815-10A9938C4EC4" name="Empleado PK">
+<createdBy>najc</createdBy>
+<createdTime>2022-01-13 15:06:57 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B841019-727B-C2BB-6AB7-19F9464DA03D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

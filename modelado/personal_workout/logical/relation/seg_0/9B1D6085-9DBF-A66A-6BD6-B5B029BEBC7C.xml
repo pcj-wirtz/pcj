@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="localidad_direccion" directorySegmentName="seg_0" id="9B1D6085-9DBF-A66A-6BD6-B5B029BEBC7C">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 19:31:00 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<sourcePk>E1E5CEB9-BD33-9370-A2DE-706344133DC5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D05FDBD9-87DF-2FF1-E1B9-B147859CA456</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>942180DB-A58D-78CB-BB62-AB3597D2F159</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE4BA9CF-8B28-A265-4D8D-C1416A70A88B" name="sesiones">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 18:09:14 UTC</createdTime>
+<generatorID>0C1458F6-2353-1BFB-C5F8-9823D0CE7EF1</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="entrenadores_id_monitor" id="70B59D36-23E0-2D5D-F67A-9AA4EB02C8DE">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 18:09:14 UTC</createdTime>
+<generatorID>0CDB039D-AD52-0C47-A87C-2896B01C0610</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E7ABC62-8FA6-A54F-0021-AA04789BAB8D" referredColumn="9EFE43B2-E53C-40BD-3249-7F9F08363C2C"/>
+</associations>
+</Column>
+<Column name="cliente_id_cliente" id="73EB45AE-18A6-0293-FA8F-5AAC96F71000">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 18:09:14 UTC</createdTime>
+<generatorID>DD6E4281-89C1-A2B2-D049-E2A94C60F023</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6622075E-6A02-AEFD-D01F-D5B506E1D3B0" referredColumn="C237A187-8ED3-CAC2-2D2D-665F9C2843F6"/>
+</associations>
+</Column>
+<Column name="hora_inicio" id="D616FB9F-CB86-76ED-433D-D2F24F557DF0">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 18:09:14 UTC</createdTime>
+<generatorID>79F2A0BD-A893-8561-789C-186A5C87CC88</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duracion" id="53B13D85-4FC4-3699-4F8B-FB2654378244">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 18:09:14 UTC</createdTime>
+<generatorID>71259F31-4412-CFC6-9595-6F0598756BA5</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="material_id_material" id="39B66620-6E76-9DD6-9C6D-79A0CB27CBF1">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 18:09:14 UTC</createdTime>
+<generatorID>EC0B5898-946E-E533-51A8-935736A0AD98</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B007C04-6509-B1DB-7D02-53577C22755C" referredColumn="E11D970D-DF22-1A5A-A206-0ADBF5214DB2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="559C791D-3512-3CDF-E8AF-11B986077DB9" name="sesiones_PK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 18:09:14 UTC</createdTime>
+<generatorID>F34FB89A-4102-AC40-8AE7-6F802059DEBE</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70B59D36-23E0-2D5D-F67A-9AA4EB02C8DE"/>
+<colUsage columnID="73EB45AE-18A6-0293-FA8F-5AAC96F71000"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C0C4ECC-9D95-AF42-8D9F-F0E70DB36D08" name="sesiones_cliente_FK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 18:09:14 UTC</createdTime>
+<generatorID>4C41F988-6D99-9868-A427-3E2CFD696C56</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73EB45AE-18A6-0293-FA8F-5AAC96F71000"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12D2536F-75B7-087E-3884-55368644A070" name="sesiones_entrenadores_FK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 18:09:14 UTC</createdTime>
+<generatorID>2E289A2C-4202-BE00-6F30-B72AC96DA04A</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70B59D36-23E0-2D5D-F67A-9AA4EB02C8DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EC0EA00-4BD0-A395-4F5D-8050860F2935" name="sesiones_material_FK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-28 18:09:14 UTC</createdTime>
+<generatorID>DD5662DA-DA89-F213-E47A-EC3846424C6A</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39B66620-6E76-9DD6-9C6D-79A0CB27CBF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

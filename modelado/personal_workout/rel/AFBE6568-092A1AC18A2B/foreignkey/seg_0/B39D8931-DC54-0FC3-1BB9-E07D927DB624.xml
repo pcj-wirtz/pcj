@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B39D8931-DC54-0FC3-1BB9-E07D927DB624" containerWithKeyObject="EFEDFF5E-2334-07C5-4604-242F754B790B" localFKIndex="AE079ACB-3124-791D-9F76-66900D6D5393" name="cliente_objetivos_FK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 21:14:13 UTC</createdTime>
+<generatorID>16EB6452-4953-4ECF-CA27-23291F8D123D</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<referredTableLongName>objetivos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A72F1507-B738-CF65-240D-76558EDE832C</referredTableID>
+<keyObject>8891904B-A2BF-4EA2-64AF-B70D70BCE09F</keyObject>
+<referredKeyID>8891904B-A2BF-4EA2-64AF-B70D70BCE09F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_objetivos</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

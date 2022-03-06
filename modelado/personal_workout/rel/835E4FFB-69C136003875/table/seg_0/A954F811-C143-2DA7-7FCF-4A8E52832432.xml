@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A954F811-C143-2DA7-7FCF-4A8E52832432" name="entrenadores">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-17 18:32:05 UTC</createdTime>
+<generatorID>B1797730-92E1-688D-DB01-0BAB04FABEB5</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_entrenador" id="6D587B0D-71BE-3535-0B88-D374D6A0B9B3">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-17 18:32:05 UTC</createdTime>
+<generatorID>520B3F8F-0AD9-200D-429F-2DA67145F771</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleado_id_empleado" id="556E571A-3D41-49A7-81DA-C57FBD84B8FD">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-17 18:32:05 UTC</createdTime>
+<generatorID>35EB7339-47EF-B370-A4F5-A12B3E68F8D8</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CFA399E6-ADEF-34E4-5A37-965CDA7CE82B" referredColumn="A0DB25C5-3BF0-2CFB-7763-ED360E9D4ACD"/>
+</associations>
+</Column>
+<Column name="entrenamientos_especialidad" id="31E31BC6-51F9-3977-6F3E-16077380E7F5">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-17 18:32:05 UTC</createdTime>
+<generatorID>8FFFF909-A954-76B9-61DA-8C932AFB0253</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13EAF423-A64A-D0C8-2D18-DDBD73680F9A" referredColumn="AB311B1A-34DD-3D4B-17C2-6E4CF068C675"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E5AB786D-FF39-C82E-7133-ECE167930995" name="entrenadores_PK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-17 18:32:05 UTC</createdTime>
+<generatorID>1D925793-0ED1-1212-0A1C-425293ED9616</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D587B0D-71BE-3535-0B88-D374D6A0B9B3"/>
+<colUsage columnID="31E31BC6-51F9-3977-6F3E-16077380E7F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB6EB4C9-4BF8-E724-F595-299E38676B1A" name="entrenadores__IDX">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-17 18:32:05 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>94DA3896-C92A-3A94-8A6A-D00267F7FA25</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="556E571A-3D41-49A7-81DA-C57FBD84B8FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70087EC3-2CB8-354A-C592-C7840BEA2CC6" name="entrenadores_Empleado_FK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-17 18:32:05 UTC</createdTime>
+<generatorID>94DA3896-C92A-3A94-8A6A-D00267F7FA25</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="556E571A-3D41-49A7-81DA-C57FBD84B8FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CB4DACB-41FD-E5FE-B098-A88FBCC35B0D" name="entrenadores_entrenamientos_FK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-17 18:32:05 UTC</createdTime>
+<generatorID>A7E0C190-6421-7A8A-161B-04E4BBCA9F79</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31E31BC6-51F9-3977-6F3E-16077380E7F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

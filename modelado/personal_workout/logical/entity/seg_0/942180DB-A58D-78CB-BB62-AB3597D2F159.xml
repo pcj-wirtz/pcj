@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="942180DB-A58D-78CB-BB62-AB3597D2F159" name="direccion">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-01-18 17:53:57 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_direccion" id="0076F62E-DC61-36FD-7D77-FF0B44D0F578">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-01-18 17:56:35 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calle" id="D548772A-5927-D031-2924-74325937403B">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-01-18 17:58:48 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CP" id="9B5061D2-BC60-DB57-8A07-8176FF71E55A">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-01-18 17:59:41 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_Loc" id="4F8459C4-4D7B-186C-AC80-0538A158B5F6">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-02-27 19:31:00 UTC</createdTime>
+<generatorID>9B1D6085-9DBF-A66A-6BD6-B5B029BEBC7C</generatorID>
+<ownerDesignName>personal_workout</ownerDesignName>
+<referedAttribute>716065C2-7BFC-FA0B-4B6D-63789A7B774A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="37A43F27-D0A3-B079-9412-A977C457D925" name="direccion PK">
+<createdBy>PCJ</createdBy>
+<createdTime>2022-01-18 17:58:28 UTC</createdTime>
+<ownerDesignName>personal_workout</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0076F62E-DC61-36FD-7D77-FF0B44D0F578</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
