@@ -1,4 +1,0 @@
-empleadoID,nombre,apellido,ssn
-1,marcos,arias,111
-2,maria,gomez,222
-3,emilio,perez,333
