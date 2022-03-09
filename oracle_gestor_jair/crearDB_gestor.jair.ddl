@@ -3,21 +3,6 @@
 --   sitio:      SQL Server 2012
 --   tipo:      SQL Server 2012
 
-use master
-go
-
-
-drop database if exists JAIR
-go
-
-create database JAIR
-go
-
-use JAIR
-go
-
-CREATE SCHEMA [JAIR]
-GO
 
 
 CREATE TABLE JAIR.CUSTOMERS 
